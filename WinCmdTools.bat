@@ -4,7 +4,7 @@
 :menu
 cls
 echo ===============================
-echo      Windows system helper     
+echo Windows Console Tools
 echo ===============================
 echo Choose an option:
 echo [1] Check System Information
