@@ -10,7 +10,7 @@ A batch script for Windows, providing quick access to common system information 
 
 ## :joystick: Usage
 
-- Clone this repository or download the WinCmdTools.bat file.
+- Clone this repository or download the [WinCmdTools.bat](https://github.com/a13xe/WinCmdTools/releases/download/v1.0.0/WinCmdTools.bat) file.
 - Run the script by double-clicking.
 
 ## :gear: Requirements
