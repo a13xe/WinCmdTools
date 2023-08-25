@@ -12,9 +12,11 @@
     echo [4] Check Network Connections
     echo [5] Show Firewall Status
     echo --------------------------------------------------------------
-    echo [6] Backup ALL registry settings (150MB~500MB)
-    echo [7] [Admin] Enhance Privacy and Security
-    echo [8] [Admin] Disable XBox, Cortana, unused services
+    echo [6] Disk cleanup (C:)
+    echo [7] Backup ALL HKLM registry settings (150MB~500MB)
+    echo --------------------------------------------------------------
+    echo [8] [Admin] Enhance Privacy and Security
+    echo [9] [Admin] Disable XBox, Cortana, unused services
     echo --------------------------------------------------------------
     echo [0] Exit
     echo ==============================================================
@@ -24,9 +26,10 @@ set /p option=Choose an option:
     if "%option%"=="3" goto useraccounts
     if "%option%"=="4" goto networkconnections
     if "%option%"=="5" goto firewallstatus
-    if "%option%"=="6" goto reg_backup
-    if "%option%"=="7" goto disable_spy
-    if "%option%"=="8" goto disable_unused
+    if "%option%"=="6" goto disk_cleanup
+    if "%option%"=="7" goto reg_backup
+    if "%option%"=="8" goto disable_spy
+    if "%option%"=="9" goto disable_unused
     if "%option%"=="0" goto exit
     echo Invalid Option, Press any key to return to the menu.
     pause
@@ -66,6 +69,13 @@ set /p option=Choose an option:
     netsh advfirewall show allprofiles
     pause
     goto menu
+
+
+:disk_cleanup
+    cleanmgr
+    pause
+    goto menu
+
 
 
 :reg_backup
