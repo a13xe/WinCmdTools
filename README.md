@@ -9,7 +9,7 @@ A batch script for Windows, providing quick access to common system information 
 - `Display User Accounts:` List all the user accounts on your system.
 - `Check Network Connections:` Check your current network connections.
 - `Show Firewall Status:` See the status of your firewall for all profiles.
-- `Backup ALL registry settings` Export all HKLM registry settings.
+- `Backup ALL registry settings` Export all HKLM registry settings. This may take some time. The file will appear on your Desktop.
 - `Enhance Privacy and Security` Disable telemetry and data collection, etc.
 - `Disable XBox, Cortana, unused services` Disable XBox, Cortana, autoupdates, etc.
   
