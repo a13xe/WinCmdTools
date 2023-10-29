@@ -1,6 +1,17 @@
 # WinCmdTools
 
-A batch script for Windows, providing quick access to common system information and administrative tools.
+I cannot accept responsibility for any potential outcomes affecting your system. You are proceeding at your own risk.
+
+## :gear: Requirements
+
+- Windows 7 or higher.
+- Administrative permissions for some functionalities.
+
+## :joystick: Usage
+
+- Clone this repository or download the [WinCmdTools.bat](https://github.com/a13xe/WinCmdTools/releases/download/v1.0.2/WinCmdTools.bat) file.
+- Run the script by double-clicking.
+- Choose the desired option.
 
 ## :feather: Features
 
@@ -18,13 +29,8 @@ A batch script for Windows, providing quick access to common system information 
 - `Enhance Privacy and Security` Disable telemetry and data collection, etc.
 - `Disable XBox, Cortana, unused services` Disable XBox, Cortana, autoupdates, etc.
 
-## :joystick: Usage
+## :framed_picture: Screenshot
 
-- Clone this repository or download the [WinCmdTools.bat](https://github.com/a13xe/WinCmdTools/releases/download/v1.0.2/WinCmdTools.bat) file.
-- Run the script by double-clicking.
-- Choose the desired option.
-
-## :gear: Requirements
-
-- Windows 7 or higher.
-- Administrative permissions for some functionalities.
+<div align="center">
+<img width=95% alt="" src="https://github.com/a13xe/WinCmdTools/assets/77492646/e68f6e0e-c38b-419d-b470-f9712b77128e">
+<div/>
